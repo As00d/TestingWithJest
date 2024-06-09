@@ -44,3 +44,4 @@ test("Check if method throws an error", () => {
 // 3. toBeFalsy : this is used when we expect the value to be null, undefined, '', false, 0, NAN
 // 4. toBeTruthy : Any thing except what is falsy is truthy.
 // One more thing we have is error handling in matchers for that we have toThrow
+// Additional points : to test coverage we have npm test -- --coverage
